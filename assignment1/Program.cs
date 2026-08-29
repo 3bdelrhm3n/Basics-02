@@ -38,5 +38,13 @@ public class Book
 //Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
 //int pages = "464";
 
-   // because we are trying to assign a string value to an int variable, it will give compile time error.
+// because we are trying to assign a string value to an int variable, it will give compile time error.
+#endregion
+
+#region question 4
+//Compile-time error — you can't put text (string) into an int variable .int pages = 464;
+
+//Runtime error — you can't divide by zero. int pages = 464 / 0
+
+
 #endregion
