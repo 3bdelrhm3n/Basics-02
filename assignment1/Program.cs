@@ -10,6 +10,9 @@ namespace assignment1
         {
 
             #region question 2
+            //Using the Book class above, print the result of calling ToString(), Equals() (compare book
+            //with itself), GetHashCode(), and GetType() on book.
+
             object book = new Book  { pages =10 ,Title ="First Book"};
             Console.WriteLine( book );
             Console.WriteLine( "to string (): " +book.ToString ());
@@ -21,6 +24,7 @@ namespace assignment1
     }
 }
 #region question 1
+   //Create a Book class with a Title (string) and Pages (int). Create a Book object and store it in a variable of type object.Print it. 
 public class Book
         {
             public string Title;
@@ -28,4 +32,19 @@ public class Book
             
             
         }
+#endregion
+
+#region question 3
+//Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
+//int pages = "464";
+
+// because we are trying to assign a string value to an int variable, it will give compile time error.
+#endregion
+
+#region question 4
+//Compile-time error — you can't put text (string) into an int variable .int pages = 464;
+
+//Runtime error — you can't divide by zero. int pages = 464 / 0
+
+
 #endregion
