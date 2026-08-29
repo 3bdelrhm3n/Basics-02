@@ -33,3 +33,10 @@ public class Book
             
         }
 #endregion
+
+#region question 3
+//Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
+//int pages = "464";
+
+   // because we are trying to assign a string value to an int variable, it will give compile time error.
+#endregion
