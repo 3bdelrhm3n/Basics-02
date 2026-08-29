@@ -10,6 +10,9 @@ namespace assignment1
         {
 
             #region question 2
+            //Using the Book class above, print the result of calling ToString(), Equals() (compare book
+            //with itself), GetHashCode(), and GetType() on book.
+
             object book = new Book  { pages =10 ,Title ="First Book"};
             Console.WriteLine( book );
             Console.WriteLine( "to string (): " +book.ToString ());
@@ -21,6 +24,7 @@ namespace assignment1
     }
 }
 #region question 1
+   //Create a Book class with a Title (string) and Pages (int). Create a Book object and store it in a variable of type object.Print it. 
 public class Book
         {
             public string Title;
